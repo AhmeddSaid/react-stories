@@ -25,12 +25,10 @@
 .header ul li {
   padding: 0 6px;
   margin-left: 6px;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  cursor: pointer;
 }
 
-.header ul li a {
-  text-decoration: none;
-  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
-}
 .header ul li a:visited {
   color: black;
 }

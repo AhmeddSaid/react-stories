@@ -5,12 +5,8 @@ const Header = () => {
     <div className="header">
       <div className="title">Story</div>
       <ul className="nav">
-        <li>
-          <a href="/">Menu</a>
-        </li>
-        <li>
-          <a href="/">About</a>
-        </li>
+        <li>Menu</li>
+        <li>About</li>
       </ul>
     </div>
   );
