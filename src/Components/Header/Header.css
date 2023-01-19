@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 30px;
+  font-size: 32px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header .title {
+  font-weight: bold;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  user-select: none;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header ul li {
+  padding: 0 6px;
+  margin-left: 6px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+.header ul li a:visited {
+  color: black;
+}
+
+@media (max-width: 991px) {
+  .header {
+    padding: 8px 10px;
+    margin: 6px;
+    font-size: 26px;
+    width: 92%;
+  }
+}
